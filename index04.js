@@ -10,12 +10,11 @@
             return false;
         }else if(!(/[A-Z]/.test(givenPassword))){
              return false;
-        }else if(givenPassword.length > 8){
+        }else if(givenPassword.length > 7){
             return true;
         }else if(isNaN(givenPassword)){
             return false;
-        }
-}
+        }}
 
 console.log(isValidPassword("Meong2021"))
 console.log(isValidPassword("meong2021"))
